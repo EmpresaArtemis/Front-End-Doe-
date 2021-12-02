@@ -1,0 +1,97 @@
+.container-middle{
+    display: flex;
+    align-items: center!important;
+    justify-content: center!important;
+    height: 100%;
+    width: 100%;
+}
+
+html, body, #root{
+    height: 90%;
+    width: 100%;
+}
+
+html{
+    margin-top: 3.9rem
+}
+
+
+.animeLeft {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+.animeRight {
+    opacity: 0;
+    transform: translateX(20px);
+    animation: animeRight .3s forwards;
+}
+
+@keyframes animeRight {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+.animeTop {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: animeTop .3s forwards;
+}
+
+@keyframes animeTop {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+.animeSmooth{
+    opacity: 0;
+    animation: animeSmooth .3s forwards;
+}
+
+@keyframes animeSmooth {
+    to {
+        opacity: 1;
+    }
+}
+
+.loader{
+    animation: is-rotating 1s infinite;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 6px solid rgb(226, 226, 226);
+    border-top-color: #CC7722;
+    margin-top: 20%;
+    margin-left: 50%;
+}
+
+.arrumaLoad{
+    margin-left: 0;
+}
+
+.arrumaLoadHome{
+    margin-left: 0;
+    margin-top: 5.5vh;
+}
+
+.arrumaLoadAdmin{
+    margin: 0;
+}
+
+@keyframes is-rotating {
+    to{
+        transform: rotate(1turn);
+    }
+}

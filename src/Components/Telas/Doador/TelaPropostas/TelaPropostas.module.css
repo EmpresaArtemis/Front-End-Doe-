@@ -1,0 +1,8 @@
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 25rem;
+    flex-direction: row;
+    transform: scale(.9);
+}

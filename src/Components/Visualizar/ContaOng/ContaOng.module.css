@@ -1,0 +1,43 @@
+.buttons {
+    top: 73vh;
+    right: 5vw;
+    position: absolute;
+    z-index: 2045;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.buttons button:nth-child(1){
+    background-color: blueviolet;
+}
+.buttons button:nth-child(2){
+    background-color: lightcoral;
+}
+.buttons button:nth-child(3){
+    background-color: lightseagreen;
+}
+
+.cadastrar{
+    position: absolute;
+    width: 60%;
+    z-index: 2000;
+    left: 30vw;
+    top: 70vh;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 35rem;
+    flex-direction: row;
+    transform: scale(.9);
+}

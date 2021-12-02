@@ -1,0 +1,53 @@
+.navListagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navListagem header{
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 2.1rem;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navListagem header button{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 16px;
+    background-color: blueviolet;
+}
+
+.navListagem header button img{
+    margin-right: 10px;
+}
+
+.navListagem header input{
+    margin-bottom: 4vh;
+}
+
+.navListagem main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgray ;
+}
+
+.navListagem main *{
+    position: fixed;
+}
+
+.navListagem .span1{
+    left: 28%;
+}
+.navListagem .span2{
+    left: 51%;
+}
+.navListagem .span3{
+    left: 73%;
+}
